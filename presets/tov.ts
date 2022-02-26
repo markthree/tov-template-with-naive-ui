@@ -22,10 +22,7 @@ import {
 	DirResolverHelper
 } from 'vite-auto-import-resolvers'
 import {
-	ArcoResolver,
 	NaiveUiResolver,
-	AntDesignVueResolver,
-	ElementPlusResolver,
 	VueUseComponentsResolver
 } from 'unplugin-vue-components/resolvers'
 import { restart } from './shared/restart'
@@ -82,11 +79,8 @@ export default () => {
 			include: [/\.md$/, /\.vue$/, /\.tsx$/],
 			dts: resolve(__dirname, './types/components.d.ts'),
 			resolvers: [
-				ArcoResolver(),
 				IconsResolver(),
 				NaiveUiResolver(),
-				ElementPlusResolver(),
-				AntDesignVueResolver(),
 				VueUseComponentsResolver()
 			]
 		}),
@@ -103,7 +97,6 @@ export default () => {
 				'@vueuse/core'
 			],
 			resolvers: [
-				ElementPlusResolver(),
 				dirResolver({ prefix: 'use' }),
 				dirResolver({
 					target: 'stores',
