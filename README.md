@@ -1,4 +1,4 @@
-# tov-template-wite-element-plus
+# tov-template-wite-naive-ui
 
 一个 ` vite + vue3 + ts ` 开箱即用现代开发模板，但更专注 `naive-ui`。
 
