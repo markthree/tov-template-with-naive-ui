@@ -12,4 +12,6 @@ const toggleLocale = () => {
     <div class="cursor-pointer m-6" @click="toggleDark()">light: {{ isDark }} click me!!</div>
 
     <div class="cursor-pointer m-6" @click="toggleLocale()">language: {{ t('index') }} click me!!</div>
+
+    <n-button class="ml-6">NAIVE-UI</n-button>
 </template>

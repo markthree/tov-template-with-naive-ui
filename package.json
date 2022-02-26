@@ -42,6 +42,7 @@
     "markdown-it-anchor": "^8.4.1",
     "markdown-it-prism": "^2.2.3",
     "mockjs": "^1.1.0",
+    "naive-ui": "^2.25.5",
     "nprogress": "^0.2.0",
     "pinia": "^2.0.11",
     "prism-theme-vars": "^0.2.2",
@@ -84,6 +85,7 @@
       "include": [
         "@vueuse/core",
         "ityped",
+        "naive-ui",
         "nprogress",
         "pinia",
         "vue",
