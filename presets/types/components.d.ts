@@ -4,8 +4,10 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
+    Message: typeof import('./../../src/components/message.vue')['default']
     NButton: typeof import('naive-ui')['NButton']
     NConfigProvider: typeof import('naive-ui')['NConfigProvider']
+    NMessageProvider: typeof import('naive-ui')['NMessageProvider']
   }
 }
 
